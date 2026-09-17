@@ -288,19 +288,15 @@ versions.
 
 ## License
 
-CAUSA Non-Commercial License 1.1. Use, study, modification and redistribution
-are free for personal, educational and research purposes, by individuals and by
-educational or non-profit institutions. Use by or for a for-profit entity —
-internal research and evaluation included — requires a separate written
-agreement; there is a 30-day evaluation allowance for deciding whether to seek
-one. Write to 2026.stell@gmail.com.
+CAUSA Non-Commercial License 1.1 — free for personal, educational and research
+use; a for-profit entity needs a separate written agreement. Full terms are in
+`LICENSE.md`; write to 2026.stell@gmail.com for a commercial license.
 
-Two things the license says that libraries of this kind often leave unclear.
-Results are unconditioned: scores, figures and papers produced by running the
-metrics are yours, with nothing owed back. And the copyleft is narrow: it binds
-modified copies of the Software, not your own code that imports it, and not the
-projections you write starting from `causa.adapters`, which exist to be copied.
-`LICENSE.md` is the actual text; this paragraph is not.
+Two things worth knowing before opening it. Results are unconditioned: scores,
+figures and papers produced by running the metrics are yours, with nothing
+owed back. And the copyleft is narrow: it binds modified copies of the
+Software, not your own code that imports it, and not the projections you
+write starting from `causa.adapters`, which exist to be copied.
 
 Note that this is a source-available license, not an open-source one, and a
 custom one rather than a standard one. Both cost something: some institutional
