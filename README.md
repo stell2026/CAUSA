@@ -12,6 +12,28 @@ tell a real effect from an artefact of the state space.
 
 ---
 
+## Who this is for
+
+CAUSA is for people building or evaluating cognitive architectures and
+LLM-based agents, not for end users or standard web services. If your host
+system already exposes numeric state vectors — before and after an action, or
+alongside a generated utterance — this library is in scope. If it does not,
+building that exposure is the actual prerequisite, and no library can supply
+it for you.
+
+The problem it targets is sometimes called the *illusion of agency*: it is
+easy for a cognitive architecture or an LLM agent to assert a given intention
+or internal state whether or not that state was actually involved in the
+outcome. Fluent self-report does not rule this out — a system can sound
+exactly as agentic as one whose state did the causal work. CAUSA checks the
+link mathematically, against a permutation baseline, rather than by reading
+the language — see [Establishing a baseline](#establishing-a-baseline). What a
+high score does and does not establish is covered in
+[What this does not measure](#what-this-does-not-measure) below; read that
+before drawing conclusions from a result.
+
+---
+
 ## What this does not measure
 
 Read this section before the usage section. The metrics are easy to misread,
