@@ -1,0 +1,52 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "causa"
+version = "0.1.0"
+description = "Metrics for whether an artificial agent's outputs are causally tied to its own internal state"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "LicenseRef-CAUSA-Noncommercial-1.1"
+license-files = ["LICENSE.md"]
+authors = [{ name = "Stell", email = "2026.stell@gmail.com" }]
+keywords = [
+    "agency",
+    "machine-consciousness",
+    "cognitive-architecture",
+    "interpretability",
+    "evaluation-metrics",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.urls]
+Repository = "https://github.com/stell2026/causa"
+Issues = "https://github.com/stell2026/causa/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/causa"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "RUF"]

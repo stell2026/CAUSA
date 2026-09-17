@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "CAUSA: Causal Agency and Utterance-State Alignment"
+message: "If you use this software, please cite it using these metadata."
+type: software
+authors:
+  - alias: Stell
+    name: Stell
+    orcid: "https://orcid.org/0009-0005-3291-0679"
+repository-code: "https://github.com/stell2026/causa"
+abstract: >-
+  Two metrics for whether an artificial agent's outputs are causally tied to
+  its own internal state: directional ownership, which scores agreement
+  between a predicted and an observed state change, and expression
+  congruence, which scores alignment between an expressed state and the
+  internal state it was expressed from. Includes permutation baselines for
+  distinguishing a real effect from an artefact of the state space.
+keywords:
+  - sense of agency
+  - machine consciousness
+  - cognitive architecture
+  - predictive processing
+  - evaluation metrics
+# Not an SPDX-listed license, so license-url is used instead of license.
+license-url: "https://github.com/stell2026/causa/blob/main/LICENSE.md"
+version: 0.1.0
+date-released: "2026-09-17"
+# After the first Zenodo release, add its DOI here:
+# doi: "10.5281/zenodo.XXXXXXX"
