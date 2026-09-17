@@ -24,5 +24,7 @@ keywords:
 license-url: "https://github.com/stell2026/causa/blob/main/LICENSE.md"
 version: 0.1.0
 date-released: "2026-09-17"
-# After the first Zenodo release, add its DOI here:
-# doi: "10.5281/zenodo.XXXXXXX"
+# Version-specific DOI for this exact release (10.5281/zenodo.22811988).
+# The concept DOI that always resolves to the latest version is
+# 10.5281/zenodo.22811987 — that one belongs on badges, not here.
+doi: "10.5281/zenodo.22811988"
